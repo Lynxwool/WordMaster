@@ -1,0 +1,50 @@
+{
+  "name": "wordmaster",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"electron .\"",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "electron": "electron .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "adm-zip": "^0.5.16",
+    "better-sqlite3": "^12.6.2",
+    "chart.js": "^4.5.1",
+    "electron-is-dev": "^3.0.1",
+    "framer-motion": "^12.29.2",
+    "idb": "^8.0.3",
+    "lucide-react": "^0.563.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.2.0",
+    "react-chartjs-2": "^5.3.1",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^19.2.0",
+    "sql.js": "^1.13.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.23",
+    "concurrently": "^9.1.2",
+    "electron": "^40.0.0",
+    "electron-builder": "^26.4.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.13",
+    "vite": "^7.2.4",
+    "vitest": "^4.0.18"
+  }
+}
